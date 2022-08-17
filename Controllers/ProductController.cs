@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using OrnekUygulama.Models;
+using OrnekUygulama.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -65,5 +66,35 @@ namespace OrnekUygulama.Controllers
             return View();
         }
 
+        public IActionResult GetProducts()
+        {
+            Product product = new Product
+            {
+                id = 1,
+                ProductName = "A Product",
+                Quantity = 15
+            };
+
+            User user = new User
+            {
+                id = 1,
+                Name = "Numan",
+                LastName = "Mercan"
+            };
+
+            //View Model ile yaparsak
+            //UserProduct userProduct = new UserProduct
+            //{
+            //    User = user,
+            //    Product = product
+
+            //};
+
+            //return View(userProduct);
+
+            var userProduct = (product,user)
+            return View(userProduct);
+
+        }
     }
 }

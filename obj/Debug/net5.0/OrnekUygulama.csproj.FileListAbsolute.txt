@@ -112,3 +112,4 @@ C:\Users\yazilim.park10\source\repos\OrnekUygulama\OrnekUygulama\obj\Debug\net5.
 C:\Users\yazilim.park10\source\repos\OrnekUygulama\OrnekUygulama\obj\Debug\net5.0\Razor\Views\Home\Index3.cshtml.g.cs
 C:\Users\yazilim.park10\source\repos\OrnekUygulama\OrnekUygulama\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
 C:\Users\yazilim.park10\source\repos\OrnekUygulama\OrnekUygulama\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\yazilim.park10\source\repos\OrnekUygulama\OrnekUygulama\obj\Debug\net5.0\Razor\Views\Product\GetProducts.cshtml.g.cs
