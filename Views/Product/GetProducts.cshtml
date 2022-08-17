@@ -1,6 +1,6 @@
-﻿@using OrnekUygulama.Extensions
+﻿@addTagHelper * ,Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper * ,OrnekUygulama
 
-@Html.TextBox("txtAdi",null,new { style="background-color:white; color:red"})
+<a href="mailto:numan.mercan24@gmail.com">Email</a><br />
 
-
-@Html.CustomTextBox("txtCustomAdi", null, "Adiniz")
+<email a="abc" mail="numan.mercan24@gmail.com" display="Numan Mercan Mail'i"></email>
