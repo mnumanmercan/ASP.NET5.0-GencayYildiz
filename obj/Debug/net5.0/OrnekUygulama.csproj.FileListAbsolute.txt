@@ -107,10 +107,7 @@ C:\Users\yazilim.park10\source\repos\OrnekUygulama\OrnekUygulama\bin\Debug\net5.
 C:\Users\yazilim.park10\source\repos\OrnekUygulama\OrnekUygulama\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\yazilim.park10\source\repos\OrnekUygulama\OrnekUygulama\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\yazilim.park10\source\repos\OrnekUygulama\OrnekUygulama\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-C:\Users\yazilim.park10\source\repos\OrnekUygulama\OrnekUygulama\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\yazilim.park10\source\repos\OrnekUygulama\OrnekUygulama\obj\Debug\net5.0\Razor\Views\Home\Index2.cshtml.g.cs
-C:\Users\yazilim.park10\source\repos\OrnekUygulama\OrnekUygulama\obj\Debug\net5.0\Razor\Views\Home\Index3.cshtml.g.cs
 C:\Users\yazilim.park10\source\repos\OrnekUygulama\OrnekUygulama\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
-C:\Users\yazilim.park10\source\repos\OrnekUygulama\OrnekUygulama\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\yazilim.park10\source\repos\OrnekUygulama\OrnekUygulama\obj\Debug\net5.0\Razor\Views\Product\GetProducts.cshtml.g.cs
 C:\Users\yazilim.park10\source\repos\OrnekUygulama\OrnekUygulama\obj\Debug\net5.0\Razor\Views\Product\Partials\ListPartial.cshtml.g.cs
+C:\Users\yazilim.park10\source\repos\OrnekUygulama\OrnekUygulama\obj\Debug\net5.0\Razor\Views\Product\CreateProduct.cshtml.g.cs
