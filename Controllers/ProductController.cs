@@ -25,7 +25,21 @@ namespace OrnekUygulama.Controllers
             public string ProductName { get; set; }
             public int Quantity { get; set; }
         }
-        
+        public class QueryData
+        {
+            public int A { get; set; }
+            public string B { get; set; }
+            
+        }
+
+        public class RouteData
+        {
+            public string A { get; set; }
+            public string B { get; set; }
+
+            public string id { get; set; }
+        }
+
         public IActionResult GetProducts()
         {
         
@@ -36,10 +50,10 @@ namespace OrnekUygulama.Controllers
         {
             return View();
         }
-        [HttpPost]
-        public IActionResult VeriAl(MyClass product)
+       
+        public IActionResult VeriAl(RouteData datas)
         {
-            
+            var values = Request.RouteValues;
             return View();
         }
 
