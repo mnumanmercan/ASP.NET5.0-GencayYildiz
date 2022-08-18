@@ -55,13 +55,15 @@ namespace OrnekUygulama.Controllers
         }
         public IActionResult CreateProduct()
         {
-            return View();
+            var tuple = (new Product(), new User());
+            return View(tuple);
         }
-       [HttpPost]
-        public IActionResult VeriAl(AjaxData ajaxData)
+        [HttpPost]
+        public IActionResult CreateProduct([Bind(Prefix = "Item1")]Product product, [Bind(Prefix = "Item2")]User user)
         {
             return View();
         }
+
 
     }
 }
