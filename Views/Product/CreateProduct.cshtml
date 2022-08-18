@@ -2,10 +2,10 @@
 
 @model OrnekUygulama.Models.Product
 
-<form asp-action="CreateProduct" asp-controller="Product" method="post">
-    <input type="text" asp-for="ProductName" placeholder="Product Name" />
+<form asp-action="VeriAl" asp-controller="Product" method="post">
+    <input asp-for="ProductName" type="text" value="" />
     <br />
-    <input type="number" asp-for="Quantity" placeholder="Quantity" />
+    <input asp-for="Quantity" type="text" value="" />
     <br />
-    <button>Urun Ekle</button>
+    <button>Gonder</button>
 </form>

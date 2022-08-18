@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using OrnekUygulama.Models;
 using OrnekUygulama.Models.ViewModels;
 using System;
@@ -11,6 +12,19 @@ namespace OrnekUygulama.Controllers
 {
     public class ProductController : Controller
     {
+        public class Model
+        {
+            public string txtValue1 { get; set; }
+
+            public string txtValue2 { get; set; }
+
+            public string txtValue3 { get; set; }
+        }
+        public class MyClass
+        {
+            public string ProductName { get; set; }
+            public int Quantity { get; set; }
+        }
         
         public IActionResult GetProducts()
         {
@@ -20,18 +34,14 @@ namespace OrnekUygulama.Controllers
         }
         public IActionResult CreateProduct()
         {
-            var product = new Product
-            {
-                ProductName = "B product",
-                Quantity = 25
-            };
-            return View(product);
-        }
-        [HttpPost]
-        //public IActionResult CreateProduct(string txtProductName,string txtQuantity)
-        public IActionResult CreateProduct(Product product)
-        {
             return View();
         }
+        [HttpPost]
+        public IActionResult VeriAl(MyClass product)
+        {
+            
+            return View();
+        }
+
     }
 }
