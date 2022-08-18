@@ -1,13 +1,12 @@
 ﻿@addTagHelper * ,Microsoft.AspNetCore.Mvc.TagHelpers
 
-@model OrnekUygulama.Models.Product
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<form asp-action="VeriAl" asp-controller="Product" method="post">
-    <input asp-for="ProductName" type="text" value="" />
-    <br />
-    <input asp-for="Quantity" type="text" value="" />
-    <br />
-    <button>Gonder</button>
-</form>
+<button id="btnGonder">Gonder</button>
 
-<a asp-action="Index" asp-controller="Home" asp-route-a="ahmet" asp-route-b="mehmet" asp-route-id="123" asp-route-x="isadıfph">content</a>
+
+<script>
+    $("#btnGonder").click(() => {
+        $.post("https://localhost:5001/product/verial", { a: "a data", b: "b data" });
+    });
+</script>

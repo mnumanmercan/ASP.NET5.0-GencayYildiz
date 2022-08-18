@@ -32,13 +32,20 @@ namespace OrnekUygulama.Controllers
             
         }
 
-        public class RouteData
+        //public class RouteData
+        //{
+        //    public string A { get; set; }
+        //    public string B { get; set; }
+
+        //    public string id { get; set; }
+        //}
+
+        public class AjaxData
         {
             public string A { get; set; }
             public string B { get; set; }
-
-            public string id { get; set; }
         }
+
 
         public IActionResult GetProducts()
         {
@@ -50,10 +57,9 @@ namespace OrnekUygulama.Controllers
         {
             return View();
         }
-       
-        public IActionResult VeriAl(RouteData datas)
+       [HttpPost]
+        public IActionResult VeriAl(AjaxData ajaxData)
         {
-            var values = Request.RouteValues;
             return View();
         }
 

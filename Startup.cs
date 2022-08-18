@@ -57,7 +57,7 @@ namespace OrnekUygulama
                 //    await context.Response.WriteAsync("Hello World!");
                 //});
                 //endpoints.MapDefaultControllerRoute();
-
+                
                 //endpoints.MapControllerRoute("Default", "{Controller=Home}/{action=Index}/{id?}");
 
                 endpoints.MapControllerRoute("CustomRoute","{controller=Home}/{action=Index}/{a}/{b}/{id}");
