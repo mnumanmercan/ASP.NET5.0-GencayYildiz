@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "L3OCX1oQOIe6F9sUim76WmEpgUXHG55XucT/0IhuJNdzHfNq8IStg48g92/3a18brQ6mrT7ZB3EQPyn5bmd4vg==",
+  "dgSpecHash": "BSyBrCWFat2QRzL9ZdEPrulmqDqGOU7crr+Ho3JwdELIHgbL0jYK22VTOTRu7KXSSuRJTpjWzD1XIEs7CN/NNg==",
   "success": true,
   "projectFilePath": "C:\\Users\\yazilim.park10\\source\\repos\\OrnekUygulama\\OrnekUygulama\\OrnekUygulama.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\yazilim.park10\\.nuget\\packages\\fluentvalidation\\11.2.0\\fluentvalidation.11.2.0.nupkg.sha512",
+    "C:\\Users\\yazilim.park10\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.1\\fluentvalidation.aspnetcore.11.2.1.nupkg.sha512",
+    "C:\\Users\\yazilim.park10\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.0\\fluentvalidation.dependencyinjectionextensions.11.2.0.nupkg.sha512",
     "C:\\Users\\yazilim.park10\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\yazilim.park10\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\yazilim.park10\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

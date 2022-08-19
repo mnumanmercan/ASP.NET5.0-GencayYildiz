@@ -110,3 +110,7 @@ C:\Users\yazilim.park10\source\repos\OrnekUygulama\OrnekUygulama\bin\Debug\net5.
 C:\Users\yazilim.park10\source\repos\OrnekUygulama\OrnekUygulama\obj\Debug\net5.0\Razor\Views\Product\GetProducts.cshtml.g.cs
 C:\Users\yazilim.park10\source\repos\OrnekUygulama\OrnekUygulama\obj\Debug\net5.0\Razor\Views\Product\Partials\ListPartial.cshtml.g.cs
 C:\Users\yazilim.park10\source\repos\OrnekUygulama\OrnekUygulama\obj\Debug\net5.0\Razor\Views\Product\CreateProduct.cshtml.g.cs
+C:\Users\yazilim.park10\source\repos\OrnekUygulama\OrnekUygulama\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\yazilim.park10\source\repos\OrnekUygulama\OrnekUygulama\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\yazilim.park10\source\repos\OrnekUygulama\OrnekUygulama\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\yazilim.park10\source\repos\OrnekUygulama\OrnekUygulama\obj\Debug\net5.0\OrnekUygulama.MvcApplicationPartsAssemblyInfo.cs
