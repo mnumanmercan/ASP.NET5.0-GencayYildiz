@@ -12,40 +12,9 @@ namespace OrnekUygulama.Controllers
 {
     public class ProductController : Controller
     {
-        public class Model
-        {
-            public string txtValue1 { get; set; }
+       
 
-            public string txtValue2 { get; set; }
-
-            public string txtValue3 { get; set; }
-        }
-        public class MyClass
-        {
-            public string ProductName { get; set; }
-            public int Quantity { get; set; }
-        }
-        public class QueryData
-        {
-            public int A { get; set; }
-            public string B { get; set; }
-            
-        }
-
-        //public class RouteData
-        //{
-        //    public string A { get; set; }
-        //    public string B { get; set; }
-
-        //    public string id { get; set; }
-        //}
-
-        public class AjaxData
-        {
-            public string A { get; set; }
-            public string B { get; set; }
-        }
-
+        
 
         public IActionResult GetProducts()
         {
@@ -55,12 +24,21 @@ namespace OrnekUygulama.Controllers
         }
         public IActionResult CreateProduct()
         {
-            var tuple = (new Product(), new User());
-            return View(tuple);
+            return View();
         }
+
+        
         [HttpPost]
-        public IActionResult CreateProduct([Bind(Prefix = "Item1")]Product product, [Bind(Prefix = "Item2")]User user)
+        public IActionResult CreateProduct(Product model)
         {
+            if (!ModelState.IsValid)
+            { // dogrulamalarda hata-eksik varsa
+
+                //ViewBag.HataMesaj = ModelState.Values.FirstOrDefault(x => x.ValidationState == Microsoft.AspNetCore.Mvc.ModelBinding.ModelValidationState.Invalid).Errors[0].ErrorMessage;
+                var messages = ModelState.ToList(); 
+                return View(model);
+            }
+
             return View();
         }
 
